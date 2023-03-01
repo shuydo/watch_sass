@@ -1,0 +1,14 @@
+.scroll-top {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  color: #fff;
+  background-color: $darkBlue;
+  // cursor: pointer;
+  cursor: pointer;
+
+  span {
+    font-size: 50px;
+  }
+}

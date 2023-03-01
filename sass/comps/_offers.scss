@@ -1,0 +1,112 @@
+.section-offers {
+  padding: 60px 0;
+
+  .section-offers_box {
+    margin-top: 40px;
+
+    .item-offer {
+      position: relative;
+    }
+
+    .item-offer_bg {
+      .offer-title,
+      .offer-btn {
+        position: absolute;
+        bottom: 50px;
+        right: 20px;
+        color: #fff;
+      }
+
+      .offer-btn {
+        bottom: 20px;
+
+        a {
+          text-decoration: underline;
+          color: #fff;
+        }
+      }
+    }
+
+    .section-offers_box__top,
+    .section-offers_box__bottom {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+
+      .item-offer_bottom.item-offer {
+        margin-top: 25px;
+        background-color: $light;
+        height: 405px;
+        background-size: cover;
+
+        &:first-child {
+          background-size: 50%;
+          background-position: 5% center;
+
+          .offer-title,
+          .offer-btn {
+            position: absolute;
+            bottom: 50%;
+            right: 80px;
+            color: $darkBlue;
+            font-weight: 700;
+          }
+
+          .offer-btn {
+            bottom: 42%;
+
+            a {
+              text-decoration: underline;
+              font-weight: 500;
+            }
+          }
+        }
+      }
+
+      .item-offer {
+        width: 50%;
+        height: 100px; // min
+        background-repeat: no-repeat;
+        background-position: 20% center; // background-size: cover;
+        background-color: $light;
+
+        &:first-child {
+          height: 405px;
+          width: 47%;
+          background-size: cover;
+        }
+
+        &.item-offer_split {
+          .item-offer_top {
+            position: relative;
+            height: 190px;
+            margin-bottom: 25px;
+
+            background-repeat: no-repeat;
+            background-position: 10% center; //20
+            background-size: 35%; //35
+            background-color: $light;
+
+            .offer-title,
+            .offer-btn {
+              position: absolute;
+              bottom: 50%;
+              right: 80px;
+              color: $darkBlue;
+              font-weight: 700;
+            }
+
+            .offer-btn {
+              bottom: 35%;
+
+              a {
+                text-decoration: underline;
+                font-weight: 500;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

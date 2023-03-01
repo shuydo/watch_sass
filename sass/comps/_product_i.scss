@@ -1,0 +1,260 @@
+// .section-product_item {
+//   background-color: $lightBlue;
+//   margin-top: 25px;
+
+//   .product-gallery {
+//     width: 30%;
+//     position: relative;
+
+//     .product-carousel_slide {
+//       height: 400px;
+//       // height: 100%;
+//       // background:no-repeat center center;
+//       background-repeat: no-repeat;
+//       background-position: 100% center;
+//       background-size: 75%;
+
+//       // outline: 1px solid black;
+//     }
+
+//     .glide__arrows {
+//       position: absolute;
+//       bottom: 20px;
+//       left: 66px; //60
+//       width: 100%;
+
+//       .product-carousel_arrow {
+//         background-color: transparent;
+//         border: 1px solid $darkBlue;
+//         outline: none;
+//         font-weight: 700;
+//         cursor: pointer;
+
+//         span {
+//           font-size: 30px;
+//         }
+
+//         &.glide__arrow--right {
+//           position: absolute;
+//           // left:unset;
+//           right: 55px;
+//         }
+//       }
+//     }
+//   }
+
+//   .product-description {
+//     margin-top: 50px;
+//     color: $darkBlue;
+//     margin-bottom: 50px;
+//     width: 35%;
+//     border-right: 1px solid $darkBlue;
+
+//     .product-description_title {
+//       font-size: 18px;
+//       text-transform: uppercase;
+//       margin-bottom: 5px;
+//     }
+
+//     ul {
+//       padding-left: 20px;
+//       margin-bottom: 25px;
+
+//       li {
+//         list-style: disc;
+//         // list-style-type: disc;
+//         font-size: 14px;
+//         margin-bottom: 5px;
+//       }
+//     }
+
+//     .product-delivery {
+//       font-size: 13px;
+//       font-weight: 700;
+
+//       .product-delivery_city {
+//         margin-bottom: 6px;
+//       }
+//     }
+
+//     .product-order {
+//       margin-top: 25px;
+
+//       button {
+//         border: 0;
+//         outline: 0;
+//         background-color: $darkBlue;
+//         color: #fff;
+//         padding: 8px 50px;
+//         cursor: pointer;
+//       }
+//     }
+//   }
+
+//   .product-delivery_info {
+//     color: $darkBlue;
+//     width: 20%;
+//     margin-top: 50px;
+//     margin-right: 20px;
+
+//     .product-delivery_info__title {
+//       font-size: 18px;
+//       text-transform: uppercase;
+//       margin-bottom: 5px;
+//     }
+
+//     ul {
+//       li {
+//         font-size: 14px;
+//         font-weight: 700;
+//         margin-bottom: 15px;
+
+//         .delivery-free {
+//           text-transform: uppercase;
+//           color: $red;
+//         }
+//       }
+//     }
+
+//     .delivery-documents {
+//       a {
+//         display: inline-block;
+//         vertical-align: top;
+//         text-decoration: underline;
+//         margin-top: 5px;
+//         margin-left: 5px;
+//       }
+//     }
+//   }
+// }
+
+// ============== Jana ===========
+.section-product_item {
+  background-color: $lightBlue;
+  margin-top: 25px;
+
+  .product-gallery {
+    width: 30%;
+    position: relative;
+
+    .product-carousel_slide {
+      height: 400px;
+      // height: 100%;
+      // background:no-repeat center center;
+      background-repeat: no-repeat;
+      background-position: 100% center;
+      background-size: 75%;
+
+      // outline: 1px solid black;
+    }
+
+    .glide__arrows {
+      position: absolute;
+      bottom: 20px;
+      left: 66px; //60
+      width: 100%;
+
+      .product-carousel_arrow {
+        background-color: transparent;
+        border: 1px solid $darkBlue;
+        outline: none;
+        font-weight: 700;
+        cursor: pointer;
+
+        span {
+          font-size: 30px;
+        }
+
+        &.glide__arrow--right {
+          position: absolute;
+          // left:unset;
+          right: 55px;
+        }
+      }
+    }
+  }
+
+  .product-description {
+    margin-top: 50px;
+    color: $darkBlue;
+    margin-bottom: 50px;
+    width: 35%;
+    border-right: 1px solid $darkBlue;
+
+    .product-description_title {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      padding-left: 20px;
+      margin-bottom: 25px;
+
+      li {
+        list-style: disc;
+        // list-style-type: disc;
+        font-size: 14px;
+        margin-bottom: 5px;
+      }
+    }
+
+    .product-delivery {
+      font-size: 13px;
+      font-weight: 700;
+
+      .product-delivery_city {
+        margin-bottom: 6px;
+      }
+    }
+
+    .product-order {
+      margin-top: 25px;
+
+      button {
+        border: 0;
+        outline: 0;
+        background-color: $darkBlue;
+        color: #fff;
+        padding: 8px 50px;
+        cursor: pointer;
+      }
+    }
+  }
+
+  .product-delivery_info {
+    color: $darkBlue;
+    width: 20%;
+    margin-top: 50px;
+    margin-right: 20px;
+
+    .product-delivery_info__title {
+      font-size: 18px;
+      text-transform: uppercase;
+      margin-bottom: 5px;
+    }
+
+    ul {
+      li {
+        font-size: 14px;
+        font-weight: 700;
+        margin-bottom: 15px;
+
+        .delivery-free {
+          text-transform: uppercase;
+          color: $red;
+        }
+      }
+    }
+
+    .delivery-documents {
+      a {
+        display: inline-block;
+        vertical-align: top;
+        text-decoration: underline;
+        margin-top: 5px;
+        margin-left: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+.section-accessoires {
+  padding: 60px 0;
+  .section-accessoires_list {
+    margin-top: 45px;
+    ul {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      li {
+        width: 22%;
+        .img-wrap {
+          background-color: $light;
+          // text-align: center;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+
+          height: 350px;
+          padding: 20px;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: 60%;
+        }
+        .category-name {
+          margin: 15px 0;
+          text-align: center;
+          text-transform: uppercase;
+          font-weight: 700;
+          font-style: 14px;
+        }
+        .more-info-btn {
+          margin-top: 10px;
+          a {
+            background-color: $red;
+            color: #fff;
+            width: 100%;
+            display: block;
+            text-align: center;
+            padding: 8px 0;
+          }
+        }
+      }
+    }
+  }
+}

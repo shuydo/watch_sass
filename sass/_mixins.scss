@@ -1,0 +1,7 @@
+@mixin trans($prop: all) {
+  transition: $prop 0.25s ease;
+}
+
+%outL {
+  outline: thin solid red;
+}

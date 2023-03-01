@@ -1,0 +1,51 @@
+.sale-banner {
+  margin: 40px 0;
+  height: 150px;
+  width: 100%; //100
+
+  // background-image: url(../img/1.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  // background-repeat: no-repeat cover center;
+
+  position: relative;
+
+  &:before {
+    // display: block;
+    position: absolute;
+    top: 0; // left: 0;
+    bottom: 0; // right: 0;
+    width: 100%;
+    content: "";
+    background: linear-gradient(
+      90deg,
+      rgba(255, 208, 219, 1) 0%,
+      rgba(255, 208, 219, 0) 100%
+    );
+  }
+
+  .sale-banner_title {
+    color: $darkBlue;
+    position: relative;
+    // z-index: 2;
+    font-size: 24px;
+    padding: 40px 0 0 40px;
+    font-weight: 700;
+  }
+
+  .button-shop {
+    position: relative;
+    z-index: 2;
+    margin: 20px 0 0 40px;
+    a {
+      border: 1px solid $darkBlue;
+      padding: 10px 15px;
+      @include trans;
+      &:hover {
+        background-color: $darkBlue;
+        color: #fff;
+      }
+    }
+  }
+}

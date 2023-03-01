@@ -1,0 +1,111 @@
+.section-contact {
+  .section-contact_list {
+    .section-contact_list__item {
+      display: flex;
+      padding: 60px 0;
+      width: 100%;
+
+      &:first-child {
+        margin-top: 30px;
+      }
+
+      .img-wrap {
+        position: relative;
+        width: 50%;
+        height: 450px;
+
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+      }
+
+      .contact-info {
+        padding-top: 40px;
+        width: 50%;
+        padding-left: 50px;
+
+        .contact-info_title {
+          font-size: 18px;
+          font-weight: 700;
+          margin-bottom: 25px;
+        }
+
+        .contact-address {
+          margin-bottom: 20px;
+
+          p {
+            font-size: 14px;
+            line-height: 23px;
+
+            span {
+              color: $red;
+              display: inline-block;
+              vertical-align: bottom;
+              margin-bottom: 4px;
+            }
+          }
+        }
+
+        .contact-phones {
+          display: inline-block;
+          width: 49%;
+          vertical-align: top;
+
+          span {
+            font-weight: 700;
+          }
+
+          .callback-btn {
+            text-decoration: underline;
+
+            span {
+              display: inline-block;
+              vertical-align: top;
+              margin-right: 10px;
+            }
+          }
+        }
+
+        .contact-email {
+          display: inline-block;
+          width: 49%;
+          vertical-align: top;
+        }
+
+        .contact-legalinfo,
+        .contact-payment {
+          ul {
+            padding-left: 20px;
+
+            li {
+              font-size: 15px;
+              margin-bottom: 10px;
+              list-style-type: disc;
+            }
+          }
+        }
+
+        .contact-payment {
+          margin-bottom: 45px;
+
+          .contact-payment_document {
+            text-decoration: underline;
+          }
+        }
+
+        .contact-schedue {
+          span {
+            display: block;
+            padding-left: 20px;
+            margin-top: 5px;
+            font-weight: 700;
+          }
+
+          a {
+            text-decoration: underline;
+          }
+        }
+      }
+    }
+  }
+}

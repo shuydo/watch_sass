@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- font -->
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- symbol font -->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <!-- glidejs styles -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.2.0/css/glide.core.min.css"
+      integrity="sha512-YQlbvfX5C6Ym6fTUSZ9GZpyB3F92hmQAZTO5YjciedwAaGRI9ccNs4iw2QTCJiSPheUQZomZKHQtuwbHkA9lgw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/contacts.min.css" />
+
+    <!-- <script
+      src="https://api-maps.yandex.ru/2.1/?apikey=ab72df5f-6b6e-471e-836e-06d112de75cd&lang=en_US"
+      type="text/javascript"
+    ></script> -->
+
+    <script src="script.js" defer></script>
+
+    <title>Contacts</title>
+  </head>
+
+  <body>
+    <header>
+      <div class="container flex-container">
+        <div class="logo header-logo">
+          <a href="/">
+            <img src="img/logo.png" alt="Logo" />
+          </a>
+        </div>
+
+        <div class="menu header-menu">
+          <nav>
+            <ul>
+              <li><a href="./shop.html">бренды</a></li>
+              <li><a href="./product.html">акскссуары</a></li>
+              <li><a href="#">распродажа</a></li>
+              <li><a href="./contacts.html">контакты</a></li>
+              <li><a href="#">о нас</a></li>
+              <li><a href="#">отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="cart">
+          <span class="cart-info">Моя корзина:</span>
+          <img src="img/basket.png" alt="" />
+          <span class="count">1</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="search">
+      <div class="container">
+        <form>
+          <input
+            type="text"
+            name="search"
+            required
+            placeholder="Поиск по каталогу"
+          />
+          <button type="submit">
+            <span class="material-icons">search</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="breadcrumbs">
+      <div class="container">
+        <a href="#">главная</a>
+        <!-- <span class="material-icons">arrow_right</span> -->
+        <!-- <span class="material-icons"> arrow_right_alt </span> -->
+        <!-- <span class="material-icons"> assistant_navigation </span> -->
+        <span class="sep material-icons">keyboard_arrow_right</span>
+        <!-- <span class="sep material-icons">keyboard_arrow_right</span>
+        <span class="material-symbols-outlined"> location_on </span>
+        <span class="material-icons-two-tone"> location_on </span> -->
+        <!-- <span class="material-icons">face</span> -->
+        <!-- <span class="material-icons-outlined"> 360 </span> -->
+        <span>контакты</span>
+      </div>
+    </div>
+
+    <section class="section section-contact">
+      <div class="container">
+        <div class="section-title">контакты</div>
+
+        <div class="section-contact_list">
+          <div class="section-contact_list__item">
+            <div class="img-wrap" style="background-image: url(img/2.jpg)">
+              <!-- <div id="map2"></div> -->
+            </div>
+
+            <div class="contact-info">
+              <div class="contact-address">
+                <div class="contact-info_title">
+                  Наш магазин расположен по адресу
+                </div>
+
+                <!-- <div class="contact-info_address"> -->
+                <p>
+                  <span class="material-icons"> add_location </span>
+
+                  г.Минск, пр.Партизанский, д.81Е уровень станции метро
+                  "Партизанская", ТЦ "Подземный город" (вход в ТЦ "Подземный
+                  город" со стороны универмага "Беларусь") Салон-магазин часов
+                  №106 "Лучшие часы"
+                </p>
+                <!-- </div> -->
+              </div>
+
+              <div class="contact-phones">
+                <div class="contact-info_title">Телефоны</div>
+
+                <div class="contact-info_phones">
+                  <p>
+                    A1
+                    <span> +375 (29) 680-15-04 </span>
+                  </p>
+
+                  <p>
+                    MTS
+                    <span> +375 (29) 680-15-04 </span>
+                  </p>
+
+                  <p>
+                    Life
+                    <span> +375 (29) 680-15-04 </span>
+                  </p>
+
+                  <a href="#" class="callback-btn">
+                    <span class="material-icons"> call </span>
+                    Обратный звонок
+                  </a>
+                </div>
+              </div>
+
+              <div class="contact-email">
+                <div class="contact-info_title">Эл.почта</div>
+
+                <div class="contact-info_address">
+                  <span class="material-icons"> email </span>
+
+                  bw@info.by
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="section-contact_list__item">
+            <div class="contact-info">
+              <div class="contact-legalinfo">
+                <div class="contact-info_title">Юридическая информация</div>
+                <ul>
+                  <li>Индивидуальный предприниматель Максимов А.В.</li>
+                  <li>Свидельство о регистрации №1423432 от 12.12.2015</li>
+                  <li>Регистрирующий орган - Минский горисполком</li>
+                  <li>Юр. адрес: г.Минск, ул. Плеханова, 43</li>
+                  <li>
+                    Дата регистрации интернет-магазина в торговом реестре
+                    01.03.2016
+                  </li>
+                  <li>Регистрационный номер 124124</li>
+                </ul>
+              </div>
+            </div>
+
+            <div
+              class="img-wrap"
+              style="background-image: url(img/q.jpg)"
+            ></div>
+          </div>
+
+          <div class="section-contact_list__item">
+            <div
+              class="img-wrap"
+              style="background-image: url(img/q.jpg)"
+            ></div>
+
+            <div class="contact-info">
+              <div class="contact-payment">
+                <div class="contact-info_title">Способы оплаты</div>
+                <ul>
+                  <li>Банковская пластиковая карточка</li>
+                  <li>Наличный расчёт</li>
+                </ul>
+
+                <a href="#" download
+                  >Образцы документов, подтверждающих оплату</a
+                >
+              </div>
+
+              <div class="contact-schedule">
+                <div class="contact-info_title">Время работы магазина:</div>
+
+                <p>
+                  Вторник-воскресенье
+                  <span> с 11:00 до 20:00 </span>
+                </p>
+
+                <p>
+                  Интернет-магазин работает:
+                  <span> с 10:00 до 20:00 (без выходных) </span>
+                </p>
+
+                <p>
+                  Заказы онлайн через
+                  <a href="#">форму обратной связи</a>принимаем
+                  <span>круглосуточно</span>
+                </p>
+
+                <a href="#" download class="contact-payment_document"
+                  >Образцы документов, подтверждающих оплату</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="flex-container">
+            <div class="footer-time">
+              <div class="footer-time_title">Время работы магазина</div>
+              <div class="footer-time_schedule">
+                Вторник - Воскресенье с <span>11:00</span>до<span>20:00</span>
+              </div>
+            </div>
+
+            <div class="footer-subscribe">
+              <span class="footer-subscribe_title">
+                Оставьте свой <span>email</span>, чтобы получить индивидуальные
+                <span>скидки</span> и <span>спецредложениия</span>
+              </span>
+              <form>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Ваш email"
+                  required
+                />
+                <input type="submit" value="отправить" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-menus">
+          <div class="flex-container">
+            <div class="footer-menus_item footer-social">
+              <ul>
+                <li>
+                  <a href="#"><img src="img/vk.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/instagram.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/facebook.svg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-menus_item">
+              <div class="footer-menus_item__title">Best Watches</div>
+
+              <ul>
+                <li><a href="#">бренды</a></li>
+                <li><a href="#">аксессуары</a></li>
+                <li><a href="#">распродажа</a></li>
+                <li><a href="#">контакты</a></li>
+                <li><a href="#">отзывы</a></li>
+                <li><a href="#">политика конфиденциальности</a></li>
+                <li><a href="#">условия соглашения</a></li>
+                <li><a href="#">возврат товара</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menus_item">
+              <div class="footer-menus_item__title">Преимущества</div>
+              <ul>
+                <li><a href="#">Официальный дилер</a></li>
+                <li><a href="#">толко оригиналы</a></li>
+                <li><a href="#">весь товар в наличии</a></li>
+                <li><a href="#">официальная гарагтия</a></li>
+                <li><a href="#">бесплатная доставка</a></li>
+                <li><a href="#">дисконтная программа</a></li>
+                <li><a href="#">быстрый сервис</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menus_item footer-about">
+              <div class="footer-menus_item__title">О нас</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                fugiat, ullam expedita tempore vitae praesentium voluptatum
+                veniam doloremque quaerat voluptate quidem placeat libero saepe.
+                Nulla, similique! Vel reprehenderit omnis consequatur.
+              </p>
+              <a href="#" class="more-about-btn">Читать больше</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="flex-container">
+            <div class="footer-logo"><img src="img/logo.png" alt="" /></div>
+            <div class="footer-year">bw.by, in. 2009-2023</div>
+            <span>&copy Все права защищены</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="scroll-top" id="scrollBtn">
+      <span class="material-icons"> keyboard_arrow_up </span>
+    </div>
+
+    <!-- Yandex Map  -->
+    <!-- <script>
+      ymaps.ready(init);
+
+      function init() {
+        var myMap = new ymaps.Map(
+          "map2",
+          {
+            center: [53.8757249, 27.6268437],
+            zoom: 14,
+          },
+          {
+            searchControlProvider: "yandex#search",
+          }
+        );
+
+        myMap.geoObjects.add(
+          new ymaps.Placemark(
+            [53.8757249, 27.6268437],
+            {
+              balloonContent:
+                '<strong>Салон-магазин часов "Лучшие часы"</strong>',
+            },
+            {
+              preset: "islands#dotIcon",
+              iconColor: "#eb4f63",
+            }
+          )
+        );
+      }
+    </script> -->
+  </body>
+</html>

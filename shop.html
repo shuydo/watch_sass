@@ -1,0 +1,400 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com" />
+
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin /> -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="./css/shop.min.css" />
+
+    <script src="script.js" defer></script>
+
+    <title>Shop</title>
+  </head>
+
+  <body>
+    <!-- <header>
+      <div class="container flex-container">
+        <div class="logo header-logo">
+          <a href="/">
+            <img src="img/logo.png" alt="Logo" />
+          </a>
+        </div>
+
+        <div class="menu header-menu">
+          <nav class="flex-container">
+            <ul>
+              <li><a href="#">бренды</a></li>
+              <li><a href="#">акскссуары</a></li>
+              <li><a href="#">распродажа</a></li>
+              <li><a href="./contacts.html">контакты</a></li>
+              <li><a href="">контакты</a></li>
+              <li><a href="#">о нас</a></li>
+              <li><a href="#">отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="cart">
+          <span class="cart-info">Моя корзина:</span>
+          <img src="img/basket.png" alt="" />
+          <span class="count">1</span>
+        </div>
+      </div>
+    </header> -->
+    
+    <!-- ============= -->
+
+    <header>
+      <div class="container flex-container">
+        <div class="logo header-logo">
+          <a href="/">
+            <img src="img/logo.png" alt="Logo" />
+          </a>
+        </div>
+
+        <div class="menu header-menu">
+          <nav>
+            <ul>
+              <li><a href="./shop.html">бренды</a></li>
+              <li><a href="./product.html">акскссуары</a></li>
+              <li><a href="#">распродажа</a></li>
+              <li><a href="./contacts.html">контакты</a></li>
+              <li><a href="#">о нас</a></li>
+              <li><a href="#">отзывы</a></li>
+            </ul>
+          </nav>
+        </div>
+
+        <div class="cart">
+          <span class="cart-info">Моя корзина:</span>
+          <img src="img/basket.png" alt="" />
+          <span class="count">1</span>
+        </div>
+      </div>
+    </header>
+
+    <div class="search">
+      <div class="container">
+        <form>
+          <input
+            type="text"
+            name="search"
+            required
+            placeholder="Поиск по каталогу"
+          />
+          <button type="submit">
+            <span class="material-icons">search</span>
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <div class="breadcrumbs">
+      <div class="container">
+        <a href="#">главная</a>
+        <span class="sep material-icons">keyboard_arrow_right</span>
+
+        <span>каталог</span>
+      </div>
+    </div>
+
+    <section class="section section-products shop-page">
+      <div class="container">
+        <div class="flex-container">
+          <div class="product-categories">
+            <ul>
+              <li><a href="#">Пол</a></li>
+              <li><a href="#">Механизм</a></li>
+              <li><a href="#">Корпус</a></li>
+              <li><a href="#">стекло</a></li>
+              <li><a href="#">браслет</a></li>
+              <li><a href="#">водозащита</a></li>
+              <li><a href="#">бренды</a></li>
+            </ul>
+          </div>
+
+          <div class="products-list">
+            <div class="products-filter">
+              <span>сортировать по:</span>
+              <select>
+                <option value="">цене</option>
+                <option value="">популярности</option>
+                <option value="">названию</option>
+              </select>
+            </div>
+
+            <div class="products-shop_item">
+              <div
+                class="img-wrap"
+                style="background-image: url(img/watch1.png)"
+              >
+                <div class="rating">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star_border </span>
+                </div>
+                <div class="sale">Скидка</div>
+              </div>
+              <div class="product-info">
+                <div class="product-title">Tissot V8 Quarts</div>
+                <div class="product-price"><del>$440</del>$360</div>
+              </div>
+              <div class="in-stock">В наличии</div>
+              <div class="add-to-cart">Добавить в корз<span>+</span></div>
+            </div>
+
+            <div class="products-shop_item">
+              <div
+                class="img-wrap"
+                style="background-image: url('img/watch2.png')"
+              >
+                <div class="rating">
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star_border </i>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product-title">Seiko Astron</div>
+                <div class="product-price">$210</div>
+              </div>
+              <div class="in-stock">В наличие в магазине</div>
+              <div class="add-to-cart">добавить в корзину</div>
+            </div>
+
+            <div class="products-shop_item">
+              <div
+                class="img-wrap"
+                style="background-image: url('img/watch3.png')"
+              >
+                <div class="rating">
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star_border </i>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product-title">Romanson De Arbon</div>
+                <div class="product-price">$299</div>
+              </div>
+              <div class="in-stock">В магазине отсутствуют</div>
+              <div class="add-to-cart">добавить в корзину</div>
+            </div>
+
+            <div class="products-shop_item">
+              <div
+                class="img-wrap"
+                style="background-image: url('img/watch4.png')"
+              >
+                <div class="rating">
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                </div>
+                <div class="sale">Скидка</div>
+              </div>
+              <div class="product-info">
+                <div class="product-title">Swiss Military Hanowa</div>
+                <div class="product-price">$499</div>
+              </div>
+              <div class="in-stock">В наличие в магазине</div>
+              <div class="add-to-cart">добавить в корзину</div>
+            </div>
+
+            <div class="products-shop_item">
+              <div
+                class="img-wrap"
+                style="background-image: url(img/watch1.png)"
+              >
+                <div class="rating">
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star </span>
+                  <span class="material-icons"> star_border </span>
+                </div>
+                <div class="sale">Скидка</div>
+              </div>
+              <div class="product-info">
+                <div class="product-title">Tissot V8 Quarts</div>
+                <div class="product-price"><del>$440</del>$360</div>
+              </div>
+              <div class="in-stock">В наличии</div>
+              <div class="add-to-cart">Добавить в корз<span>+</span></div>
+            </div>
+
+            <div class="products-shop_item">
+              <div
+                class="img-wrap"
+                style="background-image: url('img/watch2.png')"
+              >
+                <div class="rating">
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star_border </i>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product-title">Seiko Astron</div>
+                <div class="product-price">$210</div>
+              </div>
+              <div class="in-stock">В наличие в магазине</div>
+              <div class="add-to-cart">добавить в корзину</div>
+            </div>
+
+            <div class="products-shop_item">
+              <div
+                class="img-wrap"
+                style="background-image: url('img/watch3.png')"
+              >
+                <div class="rating">
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star </i>
+                  <i class="material-icons"> star_border </i>
+                </div>
+              </div>
+              <div class="product-info">
+                <div class="product-title">Romanson De Arbon</div>
+                <div class="product-price">$299</div>
+              </div>
+              <div class="in-stock">В магазине отсутствуют</div>
+              <div class="add-to-cart">добавить в корзину</div>
+            </div>
+
+            <div class="product-pagination">
+              <a href="#">1</a>
+              <a href="#">2</a>
+              <span>3</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-top">
+          <div class="flex-container">
+            <div class="footer-time">
+              <div class="footer-time_title">Время работы магазина</div>
+              <div class="footer-time_schedule">
+                Вторник - Воскресенье с <span>11:00</span>до<span>20:00</span>
+              </div>
+            </div>
+
+            <div class="footer-subscribe">
+              <span class="footer-subscribe_title">
+                Оставьте свой <span>email</span>, чтобы получить индивидуальные
+                <span>скидки</span> и <span>спецредложениия</span>
+              </span>
+              <form>
+                <input
+                  type="text"
+                  name="email"
+                  placeholder="Ваш email"
+                  required
+                />
+                <input type="submit" value="отправить" />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="footer-menus">
+          <div class="flex-container">
+            <div class="footer-menus_item footer-social">
+              <ul>
+                <li>
+                  <a href="#"><img src="img/vk.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/instagram.svg" alt="" /></a>
+                </li>
+                <li>
+                  <a href="#"><img src="img/facebook.svg" alt="" /></a>
+                </li>
+              </ul>
+            </div>
+
+            <div class="footer-menus_item">
+              <div class="footer-menus_item__title">Best Watches</div>
+
+              <ul>
+                <li><a href="#">бренды</a></li>
+                <li><a href="#">аксессуары</a></li>
+                <li><a href="#">распродажа</a></li>
+                <li><a href="#">контакты</a></li>
+                <li><a href="#">отзывы</a></li>
+                <li><a href="#">политика конфиденциальности</a></li>
+                <li><a href="#">условия соглашения</a></li>
+                <li><a href="#">возврат товара</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menus_item">
+              <div class="footer-menus_item__title">Преимущества</div>
+              <ul>
+                <li><a href="#">Официальный дилер</a></li>
+                <li><a href="#">толко оригиналы</a></li>
+                <li><a href="#">весь товар в наличии</a></li>
+                <li><a href="#">официальная гарагтия</a></li>
+                <li><a href="#">бесплатная доставка</a></li>
+                <li><a href="#">дисконтная программа</a></li>
+                <li><a href="#">быстрый сервис</a></li>
+              </ul>
+            </div>
+
+            <div class="footer-menus_item footer-about">
+              <div class="footer-menus_item__title">О нас</div>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad
+                fugiat, ullam expedita tempore vitae praesentium voluptatum
+                veniam doloremque quaerat voluptate quidem placeat libero saepe.
+                Nulla, similique! Vel reprehenderit omnis consequatur.
+              </p>
+              <a href="#" class="more-about-btn">Читать больше</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-copyright">
+          <div class="flex-container">
+            <div class="footer-logo"><img src="img/logo.png" alt="" /></div>
+            <div class="footer-year">bw.by, in. 2009-2023</div>
+            <span>&copy Все права защищены</span>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <div class="scroll-top" id="scrollBtn">
+      <span class="material-icons"> keyboard_arrow_up </span>
+    </div>
+    
+  </body>
+</html>

@@ -1,0 +1,29 @@
+.section-title {
+  font-size: 27px;
+  font-weight: 700;
+  color: $darkBlue;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.add-to-cart {
+  background-color: $red;
+  padding: 10px 25px;
+  color: #fff;
+  cursor: pointer;
+  background-image: url(../img/add.svg);
+  background-repeat: no-repeat;
+  background-position: 95% center;
+  background-size: 8%;
+  border: 0;
+}

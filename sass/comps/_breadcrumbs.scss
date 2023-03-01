@@ -1,0 +1,19 @@
+.breadcrumbs {
+  a,
+  span {
+    display: inline-block;
+    vertical-align: middle;
+
+    a {
+      &:hover {
+        color: $red;
+        @include trans(color);
+      }
+    }
+  }
+
+  span {
+    color: $grey;
+    font-size: 17px;
+  }
+}

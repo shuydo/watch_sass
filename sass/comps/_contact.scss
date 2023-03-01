@@ -1,0 +1,114 @@
+.section-contact {
+  padding: 60px 0;
+  position: relative;
+
+  .section-contact_address {
+    margin: 20px 0;
+  }
+  
+  .section-contact_form {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 2;
+    min-width: 400px;
+
+    form {
+      background-color: $darkBlue;
+      padding: 20px 35px;
+      color: #fff;
+
+      .form-title {
+        text-transform: uppercase;
+        font-size: 14px;
+        text-align: center;
+      }
+
+      .form-group {
+        display: flex; //shu
+        flex-direction: column; //shu
+        margin: 15px auto;
+
+        input,
+        textarea {
+          font-family: "Montserrat";
+          padding: 15px 5px;
+          font-size: 16px;
+          text-indent: 20px;
+          width: 100%;
+          color: #fff;
+          background-color: transparent;
+          border: 1px solid #fff;
+        }
+      }
+
+      .btn-submit {
+        input {
+          background-color: $red;
+          border: none;
+          outline: none;
+          width: 100%;
+          padding: 10px 0;
+          color: #fff;
+          font-weight: 700;
+          cursor: pointer;
+        }
+      }
+    }
+  }
+}
+
+// Jana
+
+// .section-contact {
+//   padding: 60px 0;
+//   position: relative;
+
+//   .section-contact_address {
+//     margin: 20px 0;
+//   }
+//   .section-contact_form {
+//     position: absolute;
+//     top: 30%;
+//     left: 50%;
+//     z-index: 2;
+//     min-width: 400px;
+//     form {
+//       background-color: $darkBlue;
+//       padding: 20px 35px;
+//       color: #fff;
+//       .form-title {
+//         text-transform: uppercase;
+//         font-size: 14px;
+//         text-align: center;
+//       }
+//       .form-group {
+//         margin: 15px auto;
+//         input,
+//         textarea {
+//           font-family: "Montserrat";
+//           padding: 15px 5px;
+//           font-size: 16px;
+//           text-indent: 20px;
+//           width: 100%;
+//           color: #fff;
+//           background-color: transparent;
+//           border: 1px solid #fff;
+//           resize: none;
+//         }
+//       }
+//       .btn-submit {
+//         input {
+//           background-color: $red;
+//           border: 0;
+//           outline: none;
+//           width: 100%;
+//           padding: 10px 0;
+//           color: #fff;
+//           font-weight: 700;
+//           cursor: pointer;
+//         }
+//       }
+//     }
+//   }
+// }
